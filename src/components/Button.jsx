@@ -2,8 +2,6 @@ import React from "react"
 import { Button as Precursor } from "react-native-elements"
 import styled from "styled-components"
 
-// comment
-
 function Button(props) {
   return <Precursor {...props}>{props.children}</Precursor>
 }
