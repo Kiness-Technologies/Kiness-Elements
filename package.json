@@ -1,0 +1,14 @@
+{
+  "name": "kiness-elements",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "antelbra <braantela@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-native-elements": "^1.1.0",
+    "react-native-touchable-scale": "^2.0.0",
+    "styled-components": "^4.3.1"
+  }
+}
