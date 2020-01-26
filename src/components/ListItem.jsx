@@ -37,4 +37,4 @@ const StyledListItem = styled(ListItem).attrs((props) => ({
   containerStyle: changeStyle(props)
 }))``
 
-export default StyledListItem
+export default ListItem
