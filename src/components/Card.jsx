@@ -44,4 +44,4 @@ const StyledCard = styled(Card).attrs((props) => ({
   containerStyle: applyStyle(props)
 }))``
 
-export default Card
+export default StyledCard
