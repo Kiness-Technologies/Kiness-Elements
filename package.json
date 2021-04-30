@@ -1,14 +1,14 @@
 {
-  "name": "@AntelaBrais/kiness-elements",
+  "name": "kiness-elements",
   "version": "3.0.3",
   "main": "./index.js",
   "author": "Brais Antela <braantela@gmail.com>",
+  "scripts": {
+    "publish": "np"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/AntelaBrais/Kiness-Elements.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "react-native",
