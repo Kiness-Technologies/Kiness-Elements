@@ -1,3 +1,5 @@
-# Kiness Elements
+# Kiness Elements UI Library
 
-TIJAT (This Is Just A Test)
+## Author
+
+[Brais Antela](https://github.com/AntelaBrais)
