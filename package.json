@@ -3,9 +3,6 @@
   "version": "3.0.5",
   "main": "./index.js",
   "author": "Brais Antela <braantela@gmail.com>",
-  "scripts": {
-    "publish": "np"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/AntelaBrais/Kiness-Elements.git"
