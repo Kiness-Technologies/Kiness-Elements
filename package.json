@@ -1,5 +1,5 @@
 {
-  "name": "@AntelaBrais/kiness-elements",
+  "name": "kiness-elements",
   "version": "2.0.0",
   "main": "./index.js",
   "author": "Brais Antela <braantela@gmail.com>",
