@@ -3,7 +3,7 @@ module.exports = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
   url: "https://AntelaBrais.github.io",
-  baseUrl: "/Kiness-Elements",
+  baseUrl: "/Kiness-Elements/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
