@@ -9,7 +9,7 @@ function Header(props) {
         paddingTop: 40,
         height: "auto",
         backgroundColor: "#fff",
-        borderBottomColor: "transparent"
+        borderBottomColor: "transparent",
       }}
       {...props}
     />

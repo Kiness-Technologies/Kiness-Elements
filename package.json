@@ -1,7 +1,7 @@
 {
   "name": "kiness-elements",
   "version": "3.0.6-0",
-  "main": "./index.js",
+  "main": "./index.ts",
   "author": "Brais Antela <braantela@gmail.com>",
   "repository": {
     "type": "git",

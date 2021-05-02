@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Kiness Elements",
+  tagline: "Fitness UI kit",
   url: "https://AntelaBrais.github.io",
   baseUrl: "/Kiness-Elements/",
   onBrokenLinks: "throw",
