@@ -1,6 +1,6 @@
 {
   "name": "kiness-elements",
-  "version": "3.0.6-0",
+  "version": "3.0.6",
   "main": "./index.ts",
   "author": "Brais Antela <braantela@gmail.com>",
   "repository": {
