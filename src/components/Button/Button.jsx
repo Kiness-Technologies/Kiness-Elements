@@ -1,25 +1,18 @@
 import React from "react"
 import { Button as Precursor } from "react-native-elements"
 import styled from "styled-components"
-import styles from "./Button.css"
-
-// Precursor
-function Precursor(props) {
-  return <Precursor {...props}>{props.children}</Precursor>
-}
+import { styles } from "./Button.style"
 
 function changeStyle(props) {
   if (props.primary) {
-    return {
-      backgroundColor: "black",
-    }
+    return styles.primary
   }
 }
 
-const Button = (props) => <Precursor {...props}>{props.children}</Precursor>
-
-// const Button = styled(Precursor).attrs((props) => ({
-//   buttonStyle: changeStyle(props),
-// }))``
+const Button = (props) => (
+  <Precursor buttonStyle={changeStyle(props)} {...props}>
+    {props.children}
+  </Precursor>
+)
 
 export default Button

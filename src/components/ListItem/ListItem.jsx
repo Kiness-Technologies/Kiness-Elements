@@ -1,27 +1,12 @@
 import React from "react"
 import { ListItem as Precursor } from "react-native-elements"
 import styled from "styled-components"
-
-function ListItem(props) {
-  return <Precursor {...props}>{props.children}</Precursor>
-}
-
-const cardStyle = {
-  borderRadius: 7,
-  borderColor: "transparent",
-  shadowColor: "rgba(0,0,0,0.2)",
-  shadowOffset: { height: 3, width: 0 },
-  shadowOpacity: 0.7,
-  shadowRadius: 5,
-  margin: 15,
-  padding: 15,
-  marginBottom: 0,
-}
+import { style } from "./ListItem.style"
 
 function changeStyle(props) {
   if (props.kinessStyle && props.card) {
     const returnedTarget = {
-      ...cardStyle,
+      ...style.cardStyle,
       ...props.kinessStyle,
     }
 
@@ -29,12 +14,14 @@ function changeStyle(props) {
   }
 
   if (props.card) {
-    return cardStyle
+    return style.cardStyle
   }
 }
 
-const StyledListItem = styled(ListItem).attrs((props) => ({
-  containerStyle: changeStyle(props),
-}))``
+const ListItem = (props) => (
+  <Precursor containerStyle={changeStyle(props)} {...props}>
+    {props.children}
+  </Precursor>
+)
 
-export default StyledListItem
+export default ListItem
