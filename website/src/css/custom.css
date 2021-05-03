@@ -5,6 +5,8 @@
  * work well for content-centric websites.
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #25c2a0;
@@ -15,6 +17,36 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: #1da1f2;
+}
+
+.fucsia {
+  background-color: #f50057;
+}
+
+.green {
+  background-color: #00b157;
+}
+
+.purple {
+  background-color: #bb6bd9;
+}
+
+.amber {
+  background-color: #ffc60c;
 }
 
 .docusaurus-highlight-code-line {
