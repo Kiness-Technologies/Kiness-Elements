@@ -4,32 +4,34 @@ sidebar_position: 1
 
 # Getting started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Kiness Elements in less than 5 minutes**.
 
-## Getting Starteds
+## Installation
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
+Install Kiness Elements into your project with your favourite package manager:
 
 ```shell
-npx @docusaurus/init@latest init my-website classic
+yarn add kiness-elements
 ```
 
-## Start your site
-
-Run the development server:
+or with npm
 
 ```shell
-cd my-website
-
-npx docusaurus start
+npm install kiness-elements
 ```
 
-Your site starts at `http://localhost:3000`.
+## Use
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+Add the Kiness Elements to your screens or wherever you want:
+
+```js
+import { Button, Card, Tab } from "kiness-elements"
+```
+
+## Enjoy
+
+Run your project:
+
+```shell
+yarn start
+```

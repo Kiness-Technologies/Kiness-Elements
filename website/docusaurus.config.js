@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Kiness Elements",
-  tagline: "Fitness UI kit",
+  tagline: "React Native UI kit for Fitness",
   url: "https://AntelaBrais.github.io",
   baseUrl: "/Kiness-Elements/",
   onBrokenLinks: "throw",
@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Kiness Technologies. Built with Docusaurus.`,
+      copyright: `${new Date().getFullYear()}, Kiness Technologies, with ❤️.`,
     },
   },
   presets: [
@@ -83,15 +83,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/AntelaBrais/Kiness-Elements",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/AntelaBrais/Kiness-Elements/tree/master/website/blog/",
+          editUrl: "http://antelabrais.github.io/Kiness-Elements/blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

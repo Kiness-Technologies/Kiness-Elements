@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="Kiness Elements is a UI kit made on top of React. It's made from Kiness to Kiness and the world.">
+      description="Kiness Elements is a UI kit made on top of React Native Elements. It's made from Kiness to Kiness and the world.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

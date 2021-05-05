@@ -1,43 +1,42 @@
+import { Card, Text } from "@geist-ui/react"
+
 # Colors
 
 <!-- TODO: Copy on clic over headings and cards -->
 
-## Blue
+Form follows function and so color does. Colors serve as intuitive clues to the user guiding them on their journey.
 
-**Value**: #1DA1F2
+## Blue - _Action_
 
-<div class="card blue">
-  <p></p>
-</div>
+<Card style={{ backgroundColor: "#1DA1F2", textAlign: "right" }}>
 
-## Amber
+  <h4 style={{ textTransform: "capitalize", color: "#fff" }}>#1DA1F2</h4>  
+</Card>
 
-**Value**: #FFC60C
+## Green - _Creation_
 
-<div class="card amber">
-  <p></p>
-</div>
+<Card style={{ backgroundColor: "#00B157", textAlign: "right" }}>
 
-## Fucsia
+  <h4 style={{ textTransform: "capitalize" }}>#00B157</h4>  
+</Card>
 
-**Value**: #F50057
+## Amber - _Change_
 
-<div class="card fucsia">
-  <p></p>
-</div>
+<Card style={{ backgroundColor: "#FFC60C", textAlign: "right" }}>
 
-## Purple
+  <h4 style={{ textTransform: "capitalize" }}>#FFC60C</h4>  
+</Card>
 
-**Value**: #BB6BD9
+## Fucsia - _Destruction_
 
-<div class="card purple">
-  <p></p>
-</div>
+<Card style={{ backgroundColor: "#F50057", textAlign: "right" }}>
 
-## Green
+  <h4 style={{ textTransform: "capitalize", color: "#fff" }}>#F50057</h4>  
+</Card>
 
-**Value**: #00B157
+## Purple - _Relevance_
 
-<div class="card green">
-  <p></p>
-</div>
+<Card style={{ backgroundColor: "#BB6BD9", textAlign: "right" }}>
+
+  <h4 style={{ textTransform: "capitalize" }}>#BB6BD9</h4>
+</Card>
