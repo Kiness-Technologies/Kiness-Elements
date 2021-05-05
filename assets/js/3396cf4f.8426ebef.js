@@ -1,0 +1,1 @@
+(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[69],{2600:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/Kiness-Elements/blog/tags","slug":"react","name":"react","count":1,"permalink":"/Kiness-Elements/blog/tags/react"}')}}]);
