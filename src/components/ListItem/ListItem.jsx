@@ -1,7 +1,7 @@
 import React from "react"
 import { ListItem as Precursor } from "react-native-elements"
-import styled from "styled-components"
 import { style } from "./ListItem.style"
+import { TouchableScale } from "react-native-touchable-scale"
 
 function changeStyle(props) {
   if (props.kinessStyle && props.card) {
@@ -19,9 +19,7 @@ function changeStyle(props) {
 }
 
 const ListItem = (props) => (
-  <Precursor containerStyle={changeStyle(props)} {...props}>
-    {props.children}
-  </Precursor>
+  <Precursor containerStyle={props.style} {...props} />
 )
 
 export default ListItem

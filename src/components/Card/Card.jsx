@@ -1,47 +1,35 @@
 import React from "react"
 import { Card as Precursor } from "react-native-elements"
 import TouchableScale from "react-native-touchable-scale"
-import styled from "styled-components"
-
-function Card(props) {
-  return (
-    <TouchableScale activeScale={0.95} friction={6} tension={150} {...props}>
-      <Precursor
-        wrapperStyle={{
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "space-between"
-        }}
-        containerStyle={{
-          borderRadius: 7,
-          borderColor: "transparent",
-          shadowColor: "rgba(0,0,0,0.2)",
-          shadowOffset: { height: 3, width: 0 },
-          shadowOpacity: 0.7,
-          shadowRadius: 5
-        }}
-        {...props}>
-        {props.children}
-      </Precursor>
-    </TouchableScale>
-  )
-}
+import { style } from "./Card.style"
 
 function applyStyle(props) {
   if (props.primary) {
-    return {
-      borderRadius: 7,
-      borderColor: "transparent",
-      shadowColor: "rgba(0,0,0,0.2)",
-      shadowOffset: { height: 3, width: 0 },
-      shadowOpacity: 0.7,
-      shadowRadius: 5
-    }
+    return style.primary
   }
 }
 
-const StyledCard = styled(Card).attrs((props) => ({
-  containerStyle: applyStyle(props)
-}))``
+const Card = (props) => (
+  <TouchableScale activeScale={0.95} friction={6} tension={150}>
+    <Precursor
+      wrapperStyle={{
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+      }}
+      containerStyle={{
+        borderRadius: 7,
+        borderColor: "transparent",
+        shadowColor: "rgba(0,0,0,0.2)",
+        shadowOffset: { height: 3, width: 0 },
+        shadowOpacity: 0.7,
+        shadowRadius: 5,
+        ...props.containerStyle,
+      }}
+      {...props}>
+      {props.children}
+    </Precursor>
+  </TouchableScale>
+)
 
-export default StyledCard
+export default Card
